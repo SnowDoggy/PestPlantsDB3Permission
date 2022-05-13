@@ -15,7 +15,7 @@
 <#list plants as plant>
     <div>
         <p><b>
-                <b>${plant.id}</b>. ${plant.pestname}</b>| <a href="/plant/${plant.id}">Подробнее...</a>
+                ${plant.pestname}</b>| <a href="/plant/${plant.id}">Подробнее...</a>
             <br>
             (<b>${plant.culturename}</b>) </p>
     </div>
